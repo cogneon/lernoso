@@ -1,0 +1,45 @@
+site_name: Lernoso
+site_url: https://cogneon.github.io/lernoso/de
+docs_dir: src
+site_dir: ../docs/de
+
+nav:
+    - Home: index.md
+    - Produkte:
+      - Übersicht: products.md
+    - Über uns:
+      - Management: about.md
+    - Karriere:
+      - Jobs & Karriere: career.md
+
+theme:
+    name: 'material'
+    palette:
+        scheme: default
+        primary: indigo
+        accent: yellow
+    language: de
+    icon:
+      repo: fontawesome/brands/github
+      logo: material/home
+    features:
+      - navigation.tabs
+
+repo_name: 'cogneon/lernoso'
+repo_url: 'https://github.com/cogneon/lernoso'
+
+extra:
+    giscus: false
+    generator: false
+
+copyright: cogneon.de/impressum
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - md_in_html
+
+plugins:
+  - search
